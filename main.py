@@ -7,7 +7,7 @@ if __name__ == "__main__":
   # Dataset's informations
   headers = [
     "ID",
-    "Luogo di acuisto",
+    "Luogo di acquisto",
     "Data di acquisto",
     "Importo",
     "IVA",
