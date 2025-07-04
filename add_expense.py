@@ -53,7 +53,8 @@ def open_calendar(entry_date: Entry) -> None:
   cal_wind.grab_set()
   
   # Calendar
-  cal = Calendar(cal_wind, selectmode="day", year = 2025, month=6, day=28, date_pattern="yyyy-mm-dd")
+  today = datetime.today()
+  cal = Calendar(cal_wind, selectmode="day", year = today.year, month=today.month, day=today.day, date_pattern="yyyy-mm-dd")
   cal.pack(pady=20)
   
   # Confirm button

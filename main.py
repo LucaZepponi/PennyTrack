@@ -2,7 +2,8 @@ from start_gui import start_gui
 
 if __name__ == "__main__":
   # File name
-  name = "prova.csv"
+  # name = "prova.csv"
+  name = "spese.csv"
 
   # Dataset's informations
   headers = [
